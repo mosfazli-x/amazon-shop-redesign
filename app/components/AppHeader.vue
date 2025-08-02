@@ -30,10 +30,10 @@ function changeCity(city) {
             </div>
           </div>
           <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-            <li @click="changeCity('Tehran')"><a>Tehran</a></li>
-            <li @click="changeCity('Mashhad')"><a>Mashhad</a></li>
-            <li @click="changeCity('Isfahan')"><a>Isfahan</a></li>
-            <li @click="changeCity('Tabriz')"><a>Tabriz</a></li>
+            <li @click="changeCity('Tehran')"><div>Tehran</div></li>
+            <li @click="changeCity('Mashhad')"><div>Mashhad</div></li>
+            <li @click="changeCity('Isfahan')"><div>Isfahan</div></li>
+            <li @click="changeCity('Tabriz')"><div>Tabriz</div></li>
           </ul>
         </div>
 

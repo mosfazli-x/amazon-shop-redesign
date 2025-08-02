@@ -11,6 +11,15 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxt/scripts",
   ],
+    app: {
+    head: {
+      title: "Amazon redesign",
+      htmlAttrs: {
+        lang: "en",
+      },
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    },
+  },
   ssr:false,
   css: ["~/assets/css/main.css"],
   vite: {    server: {
